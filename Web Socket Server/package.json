@@ -1,0 +1,10 @@
+{
+    "name": "serial-reader",
+    "version": "0.0.1",
+    "main": "socket.js",
+    "dependencies": {
+        "mqtt": "^5.7.0",
+        "serialport": "^9.0.1",
+        "ws": "^8.18.0"
+    }
+}

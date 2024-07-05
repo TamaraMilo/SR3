@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #4F4F4F;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.naslov {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #E8E9EB;
+  padding: 25px;
+  width: 565px;
+  margin-left: -730px;
+  color: #4F4F4F;
+  display:inline-block;
+}
+.prediction {
+  padding: 25px;
+  margin-left: 50px;
+  width: 565px;
+  background-color: #E8E9EB;
+
+}
+
+.temperatureAndPressure {
+  display: flex;
+  align-content: space-between;
+}
+
+.temperature {
+  margin-left: 50px;
+  margin-top: 40px;
+
+  padding: 25px;
+  background-color:  #E8E9EB;
+
+}
+  
+.pressure {
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 25px;
+  background-color:  #E8E9EB;
+
+}
+
+
+.home__icon g {
+  fill: #5aa9e6;
+}
+
+.home__icon path {
+  stroke: #5aa9e6;;
+  stroke-width: 5px;
+ }
+
+ .weatherIcon g {
+  fill: #5aa9e6;
+}
+
+.weatherIcon path {
+  stroke: #5aa9e6;;
+  stroke-width: 1px;
+ }
+
+ .app {
+  display: flex;
+  align-content: baseline;
+  align-items: baseline;
+  flex-direction: column;
+ }
